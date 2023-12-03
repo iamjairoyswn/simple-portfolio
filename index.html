@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>ABHISHEK'S  Portfolio
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Developer's Profile</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section" id="home">
+            <div class="left-section">Hi, My name is <span class="highlight">Abhishek</span>
+
+                <div>
+                    And</div>
+
+                <div> I am a <span class="highlight" id="element"></span></div>
+
+
+
+            </div>
+            <div class="right-section"><img src="developerr.png" alt="image">
+
+        </section>
+        <section class="second-section" id="projects">
+            <div class="subtext">What I have done so far</div>
+            <h1>Personal Projects</h1>
+            <div class="contents ">
+                <div class="card">
+                    <h3>Epex - Text Editor</h3>
+                    <p>
+                        This is a online text editor that lets you write anything and you can translate the article in
+                        20+ languages.
+                        You can type using TextToSpeech engine and You can hear the written article.
+                        It also provides the user with a short text summary.
+                        Has a toggle dark mode option.
+                        <br>
+        
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>My Portfolio</h3>
+                    <p>
+                        It is html and css based website.It is curated,online spacethat showcases my best work.It provide relevant and useful information about my skills,education and abilities.
+                         </p>
+                </div>
+                <div class="card" id="animate">
+                    <h2>In progress...</h2>
+                </div>
+                <div class="card" id="animate"></div>
+
+            </div>
+
+        </section>
+        <section class="third-section" id="about">
+            <div class="subtext">Who Am I ??</div>
+            <h1>About Me</h1>
+            <div class="content-about">
+                <div class="third-left">
+                    <div class="greeting"> Hello There,</div>
+                    <div class="details"> I am a recent graduate, who has completed his B.Tech in Computer Science And
+                        Engineering 
+                        I have worked as freelancer with <span class="highlight">Uneechub Services</span> 
+                        
+                        
+
+
+                        <div class="greeting">Hobbies...</div>
+                        <p>I like playing cricket,doing exercises and watching MMA - specially UFC</p>
+
+                        <span>checkout my youtube channel here ->
+                        </span>
+                        <a href="https://www.youtube.com/@jairai2930">Click
+                            Me</a>
+
+
+                    </div>
+
+
+                </div>
+                <div class="third-right"><img src="devv.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="forth-section " id='contact'>
+            <div class="container">
+                <h1>Contact Me</h1>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/jai__rai07" target="_blank" rel="noopener noreferrer"><img
+                            src="instagram-image.png" alt="Instagram"></a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img
+                            src="github-image.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/abhishek-rai-ar007" target="_blank"
+                        rel="noopener noreferrer"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
+                <a href="mailto:jairoyswn@gmail.com" class="email-link">jairoyswn@gmaill.com</a>
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer'],
+            typeSpeed: 60,
+            loop: true,
+            fadeOut: true,
+        });
+    </script>
+</body>
+
+</html>
